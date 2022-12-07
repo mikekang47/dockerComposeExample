@@ -1,0 +1,7 @@
+version: "1.0"
+services:
+  backend:
+    image: "sihookang47/hello-world:latest"
+    restart: "always"
+
+
