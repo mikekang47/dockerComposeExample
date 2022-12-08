@@ -9,8 +9,8 @@ on: # main branch에 push를 할 때 동작합니다!
 env:
   # AWS & Elastic Bean Stalk
   AWS_REGION: ap-northeast-2
-  EB_ENVIRONMENT_NAME: Deployment-env
-  EB_APPLICATION_NAME: deployment
+  EB_ENVIRONMENT_NAME: Debook-env
+  EB_APPLICATION_NAME: Debook
   EB_DEPLOYMENT_PACKAGE: ./docker-compose.yml
 
 jobs:
