@@ -1,6 +1,6 @@
 name: deploy
 
-on: # main branch에 push를 할 때 동작합니다!
+on:
   push:
     branches: [ main ]
 
