@@ -11,7 +11,7 @@ env:
   AWS_REGION: ap-northeast-2
   EB_ENVIRONMENT_NAME: Helloworld-env
   EB_APPLICATION_NAME: Helloworld
-  EB_DEPLOYMENT_PACKAGE: ./docker-compose.yml
+  EB_DEPLOYMENT_PACKAGE: ./Docker.aws.json
 
 jobs:
   deploy:
