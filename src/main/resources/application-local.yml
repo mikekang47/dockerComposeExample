@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:testdb
+jasypt:
+  encryptor:
+    password: ${SECRET}
+    
