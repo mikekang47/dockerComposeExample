@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8080
+ADD build/libs/helloWorld-0.0.1.jar helloWorld-0.0.1.jar
+ENTRYPOINT ["java", "-jar", "helloWorld-0.0.1.jar"]
