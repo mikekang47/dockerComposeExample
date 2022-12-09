@@ -1,10 +1,10 @@
 spring:
   datasource:
-    username: ENC(tlcyZktQ1iF3t0VM0CX/cA==)
-    password: mT7G05m5gh0/tNbVkcbSgMkj8ZIMeQT2
-    url: ENC(lIh1e3v2c922Ac/8hvN1d/JAAnYJRj+3CtfaYUVDYGAMrpWJDRSdCwIoI3buYHXoL905N4SHgvCrvrtCv+kPGFaCr1/2ncBds5eQBlOivNZg4Z5Y6FD/jA==)
+    username: ENC(mvSYFqPapKlF4pTx36IDRA==)
+    password: ENC(01lZtxYjwpNYskuBlmDimtdSgBhurWMw)
+    url: ENC(EIN4Jeo7kWR+xFOXEW435GagK/0CwcJ8i6xC3zYyVHoswMqaGw6+K6U62NZaLubcP/mvMFTFmnyTVipM6qXUw0dnGsWHsaeE2npWHgDmaCZErZvnJbwPqA==)
     driver-class-name: com.mysql.cj.jdbc.Driver
 jasypt:
   encryptor:
-    password: ${secrets}
+    password: ${SECRET}
 
