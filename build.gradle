@@ -10,7 +10,7 @@ jib {
         image = "adoptopenjdk/openjdk11"
     }
     to {
-        image = "sihookang47/debook-backend"
+        image = "sihookang47/hello-world"
         tags = ["latest"]
     }
     container {
